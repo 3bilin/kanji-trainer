@@ -14,7 +14,7 @@ function App() {
   const currentKanji = kanjiDataN3[current];
 
   const handleSelect = (selected) => {
-    const correct = selected === currentKanji.meaning;
+    const correct = selected === currentKanji.correct;
     setIsCorrect(correct);
     setShowResult(true);
   };

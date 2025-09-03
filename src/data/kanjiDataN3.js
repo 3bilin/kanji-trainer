@@ -2,7 +2,8 @@ export const kanjiDataN3 = [
     {
         kanji: "政",
         meaning: "politica, gobierno",
-        options: ["Agua", "Fuego", "Tierra", "Metal"],
+        correct: "Gobierno",
+        options: ["Agua", "Gobierno", "Tierra", "Metal"],
         kun: "まつりごと / matsurigoto",
         on: "セイ / sei",
         example: "政府 (せいふ) – gobierno"
@@ -10,7 +11,8 @@ export const kanjiDataN3 = [
     {
         kanji: "議",
         meaning: "deliberacion, consulta, debate",
-        options: ["Paz", "Guerra", "Debate", "Amor"],
+        correct: "Consulta",
+        options: ["Paz", "Guerra", "Debate", "Consulta"],
         kun: "なし / nashi",
         on: "ギ / gi",
         example: "会議 (かいぎ) – reunión"
@@ -18,7 +20,8 @@ export const kanjiDataN3 = [
     {
         kanji: "民",
         meaning: "pueblo, nacion, sujetos",
-        options: ["Rey", "Nacion", "Pueblo", "Guerrero"],
+        correct: "Sujeto",
+        options: ["Sujeto", "Nacion", "Pueblo", "Guerrero"],
         kun: "たみ / tami",
         on: "ミン / min",
         example: "国民 (こくみん) – ciudadano / pueblo"
@@ -26,6 +29,7 @@ export const kanjiDataN3 = [
     {
         kanji: "連",
         meaning: "llevar, guiar, unir, conectar",
+        correct: "Unir",
         options: ["Separar", "Unir", "Romper", "Cortar"],
         kun: "つら(なる)、つ(れる) / tsura(naru), tsu(reru)",
         on: "レン / ren",
@@ -34,7 +38,8 @@ export const kanjiDataN3 = [
     {
         kanji: "対",
         meaning: "opuesto, igual, versus, anti-, comparar",
-        options: ["Igual", "Diferente", "Opuesto", "Similar"],
+        correct: "Versus",
+        options: ["Igual", "Diferente", "Versus", "Similar"],
         kun: "なし / nashi",
         on: "タイ、 ツイ / tai, tsui",
         example: "対策 (たいさく) – medida (de acción)"
@@ -42,6 +47,7 @@ export const kanjiDataN3 = [
     {
         kanji: "部",
         meaning: "seccion, oficina, depto, clase, copia, parte, porcion",
+        correct: "Parte",
         options: ["Todo", "Parte", "Seccion", "Unidad"],
         kun: "なし / nashi",
         on: "ブ / bu",
@@ -50,6 +56,7 @@ export const kanjiDataN3 = [
     {
         kanji: "合",
         meaning: "encajar, adecuar, unir, 0.1",
+        correct: "Unir",
         options: ["Separar", "Unir", "Dividir", "Cortar"],
         kun: "あ(う)、あい / a(u), ai",
         on: "ゴウ、 ガッ、 カッ / gou, ga, ka",
@@ -58,6 +65,7 @@ export const kanjiDataN3 = [
     {
         kanji: "市",
         meaning: "mercado, ciudad, pueblo",
+        correct: "Ciudad",
         options: ["Campo", "Ciudad", "Montaña", "Río"],
         kun: "いち / ichi",
         on: "シ / shi",
@@ -66,6 +74,7 @@ export const kanjiDataN3 = [
     {
         kanji: "内",
         meaning: "dentro, dentro de, entre, en medio, casa, hogar",
+        correct: "Dentro",
         options: ["Fuera", "Dentro", "Lejos", "Cerca"],
         kun: "うち / uchi",
         on: "ナイ / nai",
@@ -74,6 +83,7 @@ export const kanjiDataN3 = [
     {
         kanji: "相",
         meaning: "inter-, mutuo, juntos, el uno al otro, ministro de estado",
+        correct: "Juntos",
         options: ["Solo", "Juntos", "Separados", "Distantes"],
         kun: "あい / ai",
         on: "ソウ、 ショウ / sou, shou",
@@ -82,6 +92,7 @@ export const kanjiDataN3 = [
     {
         kanji: "定",
         meaning: "determinar, fijar, establecer, decidir",
+        correct: "Decidir",
         options: ["Cambiar", "Decidir", "Mover", "Fluir"],
         kun: "さだ(める) / sada(meru)",
         on: "テイ、 ジョウ / tei, jou",
@@ -90,6 +101,7 @@ export const kanjiDataN3 = [
     {
         kanji: "回",
         meaning: "-veces, ronda, girar, contador",
+        correct: "Girar",
         options: ["Parar", "Girar", "Detener", "Frenar"],
         kun: "まわ(す) / mawa(su)",
         on: "カイ / kai",
@@ -98,6 +110,7 @@ export const kanjiDataN3 = [
     {
         kanji: "選",
         meaning: "elegir, seleccionar, preferir",
+        correct: "Elegir",
         options: ["Elegir", "Rechazar", "Ignorar", "Omitir"],
         kun: "えら(ぶ) / era(bu)",
         on: "セン / sen",
@@ -106,6 +119,7 @@ export const kanjiDataN3 = [
     {
         kanji: "米",
         meaning: "arroz, USA, metro",
+        correct: "Arroz",
         options: ["Trigo", "Arroz", "Maiz", "Cebada"],
         kun: "こめ / kome",
         on: "ベイ、 マイ、 メエトル / bei, mai, meetoru",
@@ -114,6 +128,7 @@ export const kanjiDataN3 = [
     {
         kanji: "実",
         meaning: "realidad, verdad",
+        correct: "Verdadero",
         options: ["Falso", "Verdadero", "Mentira", "Engaño"],
         kun: "み、みの(る) / mi, mino(ru)",
         on: "ジツ / jitsu",
@@ -122,6 +137,7 @@ export const kanjiDataN3 = [
     {
         kanji: "関",
         meaning: "conexion, barrera, puerta de entrada, involucrar, concerniente a",
+        correct: "Conectar",
         options: ["Separar", "Conectar", "Dividir", "Romper"],
         kun: "せき、 かか(わる) / seki, kaka(waru)",
         on:  "カン / kan",
@@ -130,6 +146,7 @@ export const kanjiDataN3 = [
     {
         kanji: "決",
         meaning: "decidir, fijar, acordar, nombrar",
+        correct: "Decidir",
         options: ["Dudar", "Decidir", "Cambiar", "Mover"],
         kun: "き(める) / ki(meru)",
         on: "ケツ / ketsu",
@@ -138,6 +155,7 @@ export const kanjiDataN3 = [
     {
         kanji: "全",
         meaning: "entero, completo, todo, cumplir",
+        correct: "Completo",
         options: ["Parcial", "Completo", "Incompleto", "Fragmentado"],
         kun: "まった(く)、 すべ(て) / matta(ku), sube(te)",
         on: "ゼン / zen",
@@ -146,6 +164,7 @@ export const kanjiDataN3 = [
     {
         kanji: "表",
         meaning: "superficie, tabla, grafico, diagrama",
+        correct: "Superficie",
         options: ["Interior", "Superficie", "Fondo", "Base"],
         kun: "おもて、 あらわ(す) / omote, arawa(su)",
         on: "ヒョウ / hyou",
@@ -154,6 +173,7 @@ export const kanjiDataN3 = [
     {
         kanji: "戦",
         meaning: "guerra, batalla, partido",
+        correct: "Guerra",
         options: ["Paz", "Guerra", "Amor", "Amistad"],
         kun: "いくさ、 たたか(う) / ikusa, tataka(u)",
         on: "セン / sen",
@@ -162,6 +182,7 @@ export const kanjiDataN3 = [
     {
         kanji: "経",
         meaning: "longitud, pasar por, expirar, torcer",
+        correct: "Pasar",
         options: ["Cortar", "Pasar", "Romper", "Dividir"],
         kun: "へ(る)、 た(つ) / he(ru), ta(tsu)",
         on: "ケイ / kei",
@@ -170,7 +191,8 @@ export const kanjiDataN3 = [
     {
         kanji: "最",
         meaning: "sumo, mas, extremo",
-        options: ["Minimo", "Medio", "Maximo", "Pequeño"],
+        correct: "Mas",
+        options: ["Minimo", "Medio", "Mas", "Pequeño"],
         kun: "もっと(も) / motto(mo)",
         on: "サイ / sai",
         example: "??"
@@ -178,6 +200,7 @@ export const kanjiDataN3 = [
     {
         kanji: "現",
         meaning: "presente, existente, actual",
+        correct: "Presente",
         options: ["Pasado", "Futuro", "Presente", "Antiguo"],
         kun: "あらわ(れる)、 うつ(つ) / arawa(reru), utsu(tsu)",
         on: "ゲン / gen",
@@ -186,6 +209,7 @@ export const kanjiDataN3 = [
     {
         kanji: "調",
         meaning: "tono, tono musical, metro, preparar, investigar",
+        correct: "Investigar",
         options: ["Ignorar", "Investigar", "Omitir", "Descuidar"],
         kun: "しら(べる)、ととの(う) / shira(beru), tono(u)",
         on:  "チョウ / chou",
@@ -194,6 +218,7 @@ export const kanjiDataN3 = [
     {
         kanji: "化",
         meaning: "cambio, tomar la forma de, influencia, encantar, engañar, -izacion",
+        correct: "Cambiar",
         options: ["Permanecer", "Cambiar", "Quedarse", "Mantener"],
         kun: "ば(ける)、 ふ(ける) / ba(keru), fu(keru)",
         on: "カ、 ケ / ka, ke",
@@ -202,6 +227,7 @@ export const kanjiDataN3 = [
     {
         kanji: "当",
         meaning: "acertar, correcto, apropiado",
+        correct: "Correcto",
         options: ["Incorrecto", "Correcto", "Falso", "Errado"],
         kun: "あ(たる) / a(taru)",
         on: "トウ / tou",
@@ -210,6 +236,7 @@ export const kanjiDataN3 = [
     {
         kanji: "約",
         meaning: "promesa, aproximadamente, encoger",
+        correct: "Aproximado",
         options: ["Exacto", "Aproximado", "Preciso", "Definido"],
         kun: "つづ(まる) / tsuzu(maru)",
         on: "ヤク / yaku",
@@ -218,6 +245,7 @@ export const kanjiDataN3 = [
     {
         kanji: "首",
         meaning: "cuello",
+        correct: "Cuello",
         options: ["Brazo", "Pierna", "Cuello", "Mano"],
         kun: "くび / kubi",
         on: "シュ / shu",
@@ -226,6 +254,7 @@ export const kanjiDataN3 = [
     {
         kanji: "法",
         meaning: "metodo, ley, regla, principio, modelo, sistema",
+        correct: "Ley",
         options: ["Caos", "Ley", "Desorden", "Anarquia"],
         kun: "のり / nori",
         on: "ホウ / hou",
@@ -234,6 +263,7 @@ export const kanjiDataN3 = [
     {
         kanji: "性",
         meaning: "sexo, genero, naturaleza",
+        correct: "Sexo",
         options: ["Sexo", "Edad", "Raza", "Clase"],
         kun: "なし / nashi",
         on: "セイ、 ショウ / sei, shou",
@@ -242,6 +272,7 @@ export const kanjiDataN3 = [
     {
         kanji: "的",
         meaning: "marca, objetivo, objeto, terminacion adjetival",
+        correct: "Objeto",
         options: ["Sujeto", "Objeto", "Tema", "Asunto"],
         kun: "なし / nashi",
         on: "テキ / teki",
@@ -250,6 +281,7 @@ export const kanjiDataN3 = [
     {
         kanji: "要",
         meaning: "necesitar, punto principal, esencia, pivote",
+        correct: "",
         options: ["Desechar", "Necesitar", "Ignorar", "Omitir"],
         kun: "い(る)、 かなめ / i(ru), kaname",
         on: "ヨウ / you",
@@ -258,6 +290,7 @@ export const kanjiDataN3 = [
     {
         kanji: "制",
         meaning: "sistema, ley, regla",
+        correct: "",
         options: ["Caos", "Ley", "Desorden", "Anarquia"],
         kun: "なし / nashi",
         on: "セイ / sei",
@@ -266,6 +299,7 @@ export const kanjiDataN3 = [
     {
         kanji: "治",
         meaning: "reinar, curar, sanar",
+        correct: "",
         options: ["Enfermar", "Curar", "Empeorar", "Deteriorar"],
         kun: "おさ(める)、なお(る) / nasa(meru), nao(ru)",
         on: "ジ、チ / ji, chi",
@@ -274,6 +308,7 @@ export const kanjiDataN3 = [
     {
         kanji: "務",
         meaning: "tarea, deberes",
+        correct: "",
         options: ["Ocio", "Tarea", "Descanso", "Recreo"],
         kun: "つと(める) / tsuto(meru)",
         on: "ム / mu",
@@ -282,6 +317,7 @@ export const kanjiDataN3 = [
     {
         kanji: "成",
         meaning: "convertirse en, llegar a ser, obtener, crecer, transcurrir",
+        correct: "",
         options: ["Disminuir", "Crecer", "Reducir", "Bajar"],
         kun: "な(る) / na(ru)",
         on: "セイ、 ジョウ / sei, jou",
@@ -290,6 +326,7 @@ export const kanjiDataN3 = [
     {
         kanji: "期",
         meaning: "periodo, tiempo, fecha, termino",
+        correct: "",
         options: ["Instante", "Periodo", "Momento", "Segundo"],
         kun: "なし / nashi",
         on: "キ、 ゴ / ki, go",
@@ -298,6 +335,7 @@ export const kanjiDataN3 = [
     {
         kanji: "取",
         meaning: "tomar, traer",
+        correct: "",
         options: ["Dejar", "Tomar", "Abandonar", "Olvidar"],
         kun: "と(る) / to(ru)",
         on: "シュ / shu",
@@ -306,6 +344,7 @@ export const kanjiDataN3 = [
     {
         kanji: "都",
         meaning: "metropolis, capital",
+        correct: "",
         options: ["Pueblo", "Capital", "Aldea", "Villa"],
         kun: "みやこ / miyako",
         on: "ト、ツ / to, tsu",
@@ -314,6 +353,7 @@ export const kanjiDataN3 = [
     {
         kanji: "和",
         meaning: "armonía, estilo japones, paz",
+        correct: "",
         options: ["Guerra", "Paz", "Conflicto", "Lucha"],
         kun: "やわ(らぐ)、なご(む) / yawa(ragu), nago(mu)",
         on: "ワ、オ / wa, o",
@@ -322,6 +362,7 @@ export const kanjiDataN3 = [
     {
         kanji: "機",
         meaning: "maquina, avion, oportunidad",
+        correct: "",
         options: ["Maquina", "Herramienta", "Dispositivo", "Aparato"],
         kun: "はた / hata",
         on: "キ / ki",
@@ -330,6 +371,7 @@ export const kanjiDataN3 = [
     {
         kanji: "平",
         meaning: "parejo, plano, paz",
+        correct: "",
         options: ["Montaña", "Río", "Lago", "Plano"],
         kun: "たい(ら)、ひら / tai(ra), hira",
         on: "ヘイ、ビョウ / hei, byou",
@@ -338,6 +380,7 @@ export const kanjiDataN3 = [
     {
         kanji: "加",
         meaning: "añadir, adicion, incremento, unirse",
+        correct: "",
         options: ["Restar", "Añadir", "Quitar", "Sustraer"],
         kun: "くわ(える) / kuwa(eru)",
         on: "カ / ka",
@@ -346,6 +389,7 @@ export const kanjiDataN3 = [
     {
         kanji: "受",
         meaning: "aceptar, someterse, responder (telefono), tomar",
+        correct: "",
         options: ["Rechazar", "Aceptar", "Negar", "Ignorar"],
         kun: "う(ける) / u(keru)",
         on: "ジュ / ju",
@@ -354,6 +398,7 @@ export const kanjiDataN3 = [
     {
         kanji: "続",
         meaning: "continuar, serie, secuela",
+        correct: "",
         options: ["Terminar", "Continuar", "Finalizar", "Acabar"],
         kun: "つづ(く) / tsuzuku",
         on: "ゾク / zoku",
@@ -362,6 +407,7 @@ export const kanjiDataN3 = [
     {
         kanji: "進",
         meaning: "avanzar, proceder",
+        correct: "",
         options: ["Retroceder", "Avanzar", "Volver", "Regresar"],
         kun: "すす(む) / susu(mu)",
         on: "シン / shin",
@@ -370,6 +416,7 @@ export const kanjiDataN3 = [
     {
         kanji: "数",
         meaning: "numero, fuerza, destino, ley, cifras",
+        correct: "",
         options: ["Letra", "Numero", "Palabra", "Frase"],
         kun: "かず、 かぞ(える) / kazu, kazo(eru)",
         on: "スウ / suu",
@@ -378,6 +425,7 @@ export const kanjiDataN3 = [
     {
         kanji: "記",
         meaning: "escribir, relato, narracion",
+        correct: "",
         options: ["Borrar", "Escribir", "Eliminar", "Quitar"],
         kun: "しる(す) / shiru(su)",
         on: "キ / ki",
@@ -386,6 +434,7 @@ export const kanjiDataN3 = [
     {
         kanji: "初",
         meaning: "primera vez, comienzo",
+        correct: "",
         options: ["Final", "Comienzo", "Termino", "Cierre"],
         kun: "はじ(め)、はつ / haji(me), hatsu",
         on: "ショ / sho",
@@ -394,6 +443,7 @@ export const kanjiDataN3 = [
     {
         kanji: "指",
         meaning: "dedo, apuntar a, indicar",
+        correct: "",
         options: ["Mano", "Dedo", "Brazo", "Pierna"],
         kun: "ゆび、さ(す) / yubi, sa(su)",
         on: "シ / shi",
@@ -402,6 +452,7 @@ export const kanjiDataN3 = [
     {
         kanji: "権",
         meaning: "autoridad, poder, derechos",
+        correct: "",
         options: ["Deber", "Derecho", "Obligacion", "Responsabilidad"],
         kun: "なし / nashi",
         on: "ケン / ken",
@@ -410,6 +461,7 @@ export const kanjiDataN3 = [
     {
         kanji: "支",
         meaning: "rama, soporte, sostener",
+        correct: "",
         options: ["Raiz", "Rama", "Tronco", "Tallo"],
         kun: "ささ(える) / sasa(eru)",
         on: "シ / shi",
@@ -418,6 +470,7 @@ export const kanjiDataN3 = [
     {
         kanji: "産",
         meaning: "productos, parir, dar a luz",
+        correct: "",
         options: ["Consumir", "Producir", "Gastar", "Usar"],
         kun: "う(む)、 む(す) / u(mu), mu(su)",
         on: "サン / san",
@@ -426,6 +479,7 @@ export const kanjiDataN3 = [
     {
         kanji: "点",
         meaning: "mancha, punto, marca",
+        correct: "",
         options: ["Linea", "Punto", "Area", "Superficie"],
         kun: "つ(ける) / tsu(keru)",
         on: "テン / ten",
@@ -434,6 +488,7 @@ export const kanjiDataN3 = [
     {
         kanji: "報",
         meaning: "informe, noticias, recompensa",
+        correct: "",
         options: ["Silencio", "Informe", "Calma", "Paz"],
         kun: "むく(いる) / muku(iru)",
         on: "ホウ / hou",
@@ -442,6 +497,7 @@ export const kanjiDataN3 = [
     {
         kanji: "済",
         meaning: "liquidar, aliviar, terminar",
+        correct: "",
         options: ["Comenzar", "Terminar", "Iniciar", "Empezar"],
         kun: "す(む) / su(mu)",
         on: "サイ、セイ / sai, sei",
@@ -450,6 +506,7 @@ export const kanjiDataN3 = [
     {
         kanji: "活",
         meaning: "vivir",
+        correct: "",
         options: ["Morir", "Vivir", "Fallecer", "Expirar"],
         kun: "なし / nashi",
         on: "カツ / katsu",
@@ -458,6 +515,7 @@ export const kanjiDataN3 = [
     {
         kanji: "原",
         meaning: "original, primitivo, campo",
+        correct: "",
         options: ["Copia", "Original", "Duplicado", "Imitacion"],
         kun: "はら / hara",
         on: "ゲン / gen",
@@ -466,6 +524,7 @@ export const kanjiDataN3 = [
     {
         kanji: "共",
         meaning: "juntos, ambos, ninguno",
+        correct: "",
         options: ["Solo", "Juntos", "Separados", "Distantes"],
         kun: "とも / tomo",
         on: "キョウ / kyou",
@@ -474,6 +533,7 @@ export const kanjiDataN3 = [
     {
         kanji: "得",
         meaning: "ganar, obtener, encontrar, ganar, adquirir, poder, may, able to, profit",
+        correct: "",
         options: ["Perder", "Ganar", "Fallar", "Errar"],
         kun: "え(る) / e(ru)",
         on: "トク / toku",
@@ -482,6 +542,7 @@ export const kanjiDataN3 = [
     {
         kanji: "解",
         meaning: "desenredar, explicacion",
+        correct: "",
         options: ["Confusion", "Explicacion", "Desorden", "Caos"],
         kun: "と(く)、ほど(く) / to(ku), hodo(ku)",
         on: "カイ、ゲ / kai, ge",
@@ -490,6 +551,7 @@ export const kanjiDataN3 = [
     {
         kanji: "交",
         meaning: "mezclar, mezcla, asociacion, ir y venir",
+        correct: "",
         options: ["Separar", "Mezclar", "Dividir", "Romper"],
         kun: "まじ(わる)、 ま(ぜる)、 か(わす) / maji(waru), ma(zeru), ka(wasu)",
         on: "コウ / kou",
@@ -498,6 +560,7 @@ export const kanjiDataN3 = [
     {
         kanji: "資",
         meaning: "bienes, recursos, capital, fondos, datos, ser conducente a",
+        correct: "",
         options: ["Gastar", "Ahorrar", "Invertir", "Guardar"],
         kun: "なし / nashi",
         on: "シ / shi",
@@ -506,6 +569,7 @@ export const kanjiDataN3 = [
     {
         kanji: "予",
         meaning: "de antemano, previo, yo mismo, yo",
+        correct: "",
         options: ["Despues", "Antes", "Luego", "Despues"],
         kun: "あらかじ(め) / arakaji(me)",
         on: "ヨ、 シャ / yo, sha",
@@ -514,6 +578,7 @@ export const kanjiDataN3 = [
     {
         kanji: "向",
         meaning: "enfrentando, mas alla",
+        correct: "",
         options: ["Lejos", "Cerca", "Junto", "Mas alla"],
         kun: "む(く),むか(い) / mu(ku), muka(i)",
         on: "コウ / kou",
@@ -522,6 +587,7 @@ export const kanjiDataN3 = [
     {
         kanji: "際",
         meaning: "ocasion, tiempo",
+        correct: "",
         options: ["Instante", "Ocasión", "Momento", "Segundo"],
         kun: "きわ / kiwa",
         on: "サイ / sai",
@@ -530,6 +596,7 @@ export const kanjiDataN3 = [
     {
         kanji: "勝",
         meaning: "victoria, ganar",
+        correct: "",
         options: ["Perder", "Ganar", "Fallar", "Errar"],
         kun: "か(つ)、 まさ(る) / ka(tsu), masa(ru)",
         on:  "ショウ / shou",
@@ -538,6 +605,7 @@ export const kanjiDataN3 = [
     {
         kanji: "面",
         meaning: "mascara, cara, rasgos, superficie",
+        correct: "",
         options: ["Fondo", "Superficie", "Interior", "Base"],
         kun: "おも、おもて、つら / omo, omote, tsura",
         on: "メン / men",
@@ -546,6 +614,7 @@ export const kanjiDataN3 = [
     {
         kanji: "告",
         meaning: "revelacion, informar",
+        correct: "",
         options: ["Ocultar", "Informar", "Esconder", "Callar"],
         kun: "つ(げる) / tsu(geru)",
         on: "コク / koku",
@@ -554,6 +623,7 @@ export const kanjiDataN3 = [
     {
         kanji: "反",
         meaning: "anti-",
+        correct: "",
         options: ["Pro", "Anti", "Con", "A favor"],
         kun: "そ(る) / so(ru)",
         on: "ハン / han",
@@ -562,6 +632,7 @@ export const kanjiDataN3 = [
     {
         kanji: "判",
         meaning: "juicio, firma",
+        correct: "",
         options: ["Juicio", "Duda", "Confusion", "Incertidumbre"],
         kun: "なし / nashi",
         on: "ハン / han",
@@ -570,6 +641,7 @@ export const kanjiDataN3 = [
     {
         kanji: "認",
         meaning: "reconocer, testigo, reconocer",
+        correct: "",
         options: ["Negar", "Reconocer", "Rechazar", "Ignorar"],
         kun: "みと(める)、したた(める) / mito(meru), shitata(meru)",
         on: "ニン / nin",
@@ -578,6 +650,7 @@ export const kanjiDataN3 = [
     {
         kanji: "参",
         meaning: "ir, venir, participar",
+        correct: "",
         options: ["Salir", "Entrar", "Participar", "Abandonar"],
         kun: "まい(る) / mai(ru)",
         on: "サン / san",
@@ -586,6 +659,7 @@ export const kanjiDataN3 = [
     {
         kanji: "利",
         meaning: "beneficio, ventaja, provecho",
+        correct: "",
         options: ["Perjuicio", "Beneficio", "Dano", "Perdida"],
         kun: "き(く) / ki(ku)",
         on: "リ / ri",
@@ -594,6 +668,7 @@ export const kanjiDataN3 = [
     {
         kanji: "組",
         meaning: "asociacion, ensamblar, unir",
+        correct: "",
         options: ["Separar", "Unir", "Dividir", "Romper"],
         kun: "く(む)、くみ / ku(mu), kumi",
         on: "ソ / so",
@@ -602,6 +677,7 @@ export const kanjiDataN3 = [
     {
         kanji: "信",
         meaning: "fe, verdad, confianza",
+        correct: "",
         options: ["Mentira", "Verdad", "Falsedad", "Engaño"],
         kun: "なし / nashi",
         on: "シン / shin",
@@ -610,6 +686,7 @@ export const kanjiDataN3 = [
     {
         kanji: "在",
         meaning: "existir, las afueras",
+        correct: "",
         options: ["Desaparecer", "Existir", "Fallecer", "Morir"],
         kun: "あ(る) / a(ru)",
         on: "ザイ / zai",
@@ -618,6 +695,7 @@ export const kanjiDataN3 = [
     {
         kanji: "件",
         meaning: "asunto, caso, materia",
+        correct: "",
         options: ["Asunto", "Ignorar", "Tema", "Omitir"],
         kun: "くだん / kudan",
         on: "ケン / ken",
@@ -626,6 +704,7 @@ export const kanjiDataN3 = [
     {
         kanji: "側",
         meaning: "lado, inclinarse, oponerse",
+        correct: "",
         options: ["Lejos", "Cerca", "Lado", "Distante"],
         kun: "がわ、そば / gawa, soba",
         on: "ソク / soku",
@@ -634,6 +713,7 @@ export const kanjiDataN3 = [
     {
         kanji: "任",
         meaning: "responsabilidad, deber",
+        correct: "",
         options: ["Ocio", "Deber", "Descanso", "Recreo"],
         kun: "まか(せる) / maka(seru)",
         on: "ニン / nin",
@@ -642,6 +722,7 @@ export const kanjiDataN3 = [
     {
         kanji: "引",
         meaning: "tirar, jalar, tirar, halar",
+        correct: "",
         options: ["Empujar", "Tirar", "Presionar", "Apretar"],
         kun: "ひ(く) / hi(ku)",
         on: "イン / in",
@@ -650,6 +731,7 @@ export const kanjiDataN3 = [
     {
         kanji: "求",
         meaning: "solicitar, querer, demandar",
+        correct: "",
         options: ["Ofrecer", "Pedir", "Dar", "Regalar"],
         kun: "もと(める) / moto(meru)",
         on: "キュウ / kyuu",
@@ -658,6 +740,7 @@ export const kanjiDataN3 = [
     {
         kanji: "所",
         meaning: "lugar, extension",
+        correct: "",
         options: ["Lugar", "Objeto", "Sitio", "Area"],
         kun: "ところ / tokoro",
         on: "ショ / sho",
@@ -666,6 +749,7 @@ export const kanjiDataN3 = [
     {
         kanji: "次",
         meaning: "siguiente, orden",
+        correct: "",
         options: ["Primero", "Siguiente", "Ultimo", "Final"],
         kun: "つ(ぐ)、つぎ / tsu(gu), tsugi",
         on: "ジ、シ / ji, shi",
@@ -674,6 +758,7 @@ export const kanjiDataN3 = [
     {
         kanji: "昨",
         meaning: "ayer, previo",
+        correct: "",
         options: ["Hoy", "Ayer", "Mañana", "Pasado"],
         kun: "なし / nashi",
         on: "サク / saku",
@@ -682,6 +767,7 @@ export const kanjiDataN3 = [
     {
         kanji: "論",
         meaning: "argumento, discurso",
+        correct: "",
         options: ["Silencio", "Discurso", "Calma", "Paz"],
         kun: "あげつら(う) / agetsura(u)",
         on: "ロン / ron",
@@ -690,6 +776,7 @@ export const kanjiDataN3 = [
     {
         kanji: "官",
         meaning: "burócrata, el gobierno, organo",
+        correct: "",
         options: ["Ciudadano", "Gobierno", "Pueblo", "Nacion"],
         kun: "なし / nashi",
         on: "カン / kan",
@@ -698,6 +785,7 @@ export const kanjiDataN3 = [
     {
         kanji: "増",
         meaning: "aumentar, añadir",
+        correct: "",
         options: ["Disminuir", "Aumentar", "Reducir", "Bajar"],
         kun: "ま(す)、 ふ(える) / ma(su), fu(eru)",
         on: "ゾウ / zou",
@@ -706,6 +794,7 @@ export const kanjiDataN3 = [
     {
         kanji: "係",
         meaning: "persona a cargo, conexion",
+        correct: "",
         options: ["Desconocido", "Encargado", "Extraño", "Forastero"],
         kun: "かか(る)、かかり / kaka(ru), kakari",
         on: "ケイ / kei",
@@ -714,6 +803,7 @@ export const kanjiDataN3 = [
     {
         kanji: "感",
         meaning: "emocion, sentimiento, sensacion",
+        correct: "",
         options: ["Razon", "Emocion", "Logica", "Pensamiento"],
         kun: "なし / nashi",
         on: "カン / kan",
@@ -722,6 +812,7 @@ export const kanjiDataN3 = [
     {
         kanji: "情",
         meaning: "sentimientos, emocion, pasion",
+        correct: "",
         options: ["Razon", "Emocion", "Logica", "Pensamiento"],
         kun: "なさ(け) / nasa(ke)",
         on: "ジョウ、セイ / jou, sei",
@@ -730,6 +821,7 @@ export const kanjiDataN3 = [
     {
         kanji: "投",
         meaning: "lanzar, descartar",
+        correct: "",
         options: ["Atrapar", "Lanzar", "Recoger", "Coger"],
         kun: "な(げる) / na(geru)",
         on: "トウ / tou",
@@ -738,6 +830,7 @@ export const kanjiDataN3 = [
     {
         kanji: "示",
         meaning: "mostrar, indicar, exhibir",
+        correct: "",
         options: ["Ocultar", "Mostrar", "Esconder", "Callar"],
         kun: "しめ(す) / shime(su)",
         on: "ジ、シ / ji, shi",
@@ -746,6 +839,7 @@ export const kanjiDataN3 = [
     {
         kanji: "変",
         meaning: "inusual, cambio, extraño",
+        correct: "",
         options: ["Normal", "Extraño", "Comun", "Ordinario"],
         kun: "か(わる) / ka(waru)",
         on: "ヘン / hen",
@@ -754,6 +848,7 @@ export const kanjiDataN3 = [
     {
         kanji: "打",
         meaning: "golpear, pegar, tocar",
+        correct: "",
         options: ["Atrapar", "Golpear", "Recoger", "Coger"],
         kun: "う(つ)、ぶ(つ) / u(tsu), bu(tsu)",
         on: "ダ / da",
@@ -762,6 +857,7 @@ export const kanjiDataN3 = [
     {
         kanji: "直",
         meaning: "de inmediato, honestidad, franqueza, arreglar, reparar",
+        correct: "",
         options: ["Roto", "Arreglado", "Dañado", "Quebrado"],
         kun: "ただ(ちに)、 す(ぐ) / tada(chini), su(gu)",
         on: "チョク、ジキ / choku, jiki",
@@ -770,6 +866,7 @@ export const kanjiDataN3 = [
     {
         kanji: "両",
         meaning: "ambos",
+        correct: "",
         options: ["Solo", "Ambos", "Ninguno", "Uno"],
         kun: "なし / nashi",
         on: "リョウ / ryou",
@@ -778,6 +875,7 @@ export const kanjiDataN3 = [
     {
         kanji: "式",
         meaning: "estilo, ceremonia",
+        correct: "",
         options: ["Informal", "Ceremonia", "Casual", "Relajado"],
         kun: "なし / nashi",
         on: "シキ / shiki",
@@ -786,6 +884,7 @@ export const kanjiDataN3 = [
     {
         kanji: "確",
         meaning: "aseguramiento, firme, confirmar",
+        correct: "",
         options: ["Duda", "Certeza", "Confusion", "Incertidumbre"],
         kun: "たし(か) / tashi(ka)",
         on: "カク / kaku",
@@ -794,6 +893,7 @@ export const kanjiDataN3 = [
     {
         kanji: "果",
         meaning: "fruta, recompensa, llevar a cabo, lograr, completar",
+        correct: "",
         options: ["Comenzar", "Completar", "Iniciar", "Empezar"],
         kun: "は(たす) / ha(tasu)",
         on: "カ / ka",
