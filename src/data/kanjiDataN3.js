@@ -96,7 +96,7 @@ export const kanjiDataN3 = [
         options: ["Cambiar", "Decidir", "Mover", "Fluir"],
         kun: "さだ(める) / sada(meru)",
         on: "テイ、 ジョウ / tei, jou",
-        example: "??"
+        example: "予定を定める。 (よていをさだめる) - Fijar un plan."
     },
     {
         kanji: "回",
@@ -105,7 +105,7 @@ export const kanjiDataN3 = [
         options: ["Parar", "Girar", "Detener", "Frenar"],
         kun: "まわ(す) / mawa(su)",
         on: "カイ / kai",
-        example: "??"
+        example: "ドアを回す。 (ドアをまわす) - Girar la puerta."
     },
     {
         kanji: "選",
@@ -114,16 +114,16 @@ export const kanjiDataN3 = [
         options: ["Elegir", "Rechazar", "Ignorar", "Omitir"],
         kun: "えら(ぶ) / era(bu)",
         on: "セン / sen",
-        example: "??"
+        example: "彼を選んだ。 (かれをえらんだ) - Lo elegí a él."
     },
     {
         kanji: "米",
         meaning: "arroz, USA, metro",
         correct: "Arroz",
-        options: ["Trigo", "Arroz", "Maiz", "Cebada"],
+        options: ["Trigo", "Arroz", "Maíz", "Cebada"],
         kun: "こめ / kome",
         on: "ベイ、 マイ、 メエトル / bei, mai, meetoru",
-        example: "??"
+        example: "毎日米を食べます。 (まいにちこめをたべます) - Como arroz todos los días."
     },
     {
         kanji: "実",
@@ -132,16 +132,16 @@ export const kanjiDataN3 = [
         options: ["Falso", "Verdadero", "Mentira", "Engaño"],
         kun: "み、みの(る) / mi, mino(ru)",
         on: "ジツ / jitsu",
-        example: "??"
+        example: "実は彼が犯人だった。 (じつはかれがはんにんだった) - En realidad, él era el culpable."
     },
     {
         kanji: "関",
-        meaning: "conexion, barrera, puerta de entrada, involucrar, concerniente a",
+        meaning: "conexión, barrera, puerta de entrada, involucrar, concerniente a",
         correct: "Conectar",
         options: ["Separar", "Conectar", "Dividir", "Romper"],
         kun: "せき、 かか(わる) / seki, kaka(waru)",
-        on:  "カン / kan",
-        example: "??"
+        on: "カン / kan",
+        example: "この問題に関わっている。 (このもんだいにかかわっている) - Está relacionado con este problema."
     },
     {
         kanji: "決",
@@ -150,7 +150,7 @@ export const kanjiDataN3 = [
         options: ["Dudar", "Decidir", "Cambiar", "Mover"],
         kun: "き(める) / ki(meru)",
         on: "ケツ / ketsu",
-        example: "??"
+        example: "進路を決めた。 (しんろをきめた) - Decidí mi camino (carrera)."
     },
     {
         kanji: "全",
@@ -159,16 +159,16 @@ export const kanjiDataN3 = [
         options: ["Parcial", "Completo", "Incompleto", "Fragmentado"],
         kun: "まった(く)、 すべ(て) / matta(ku), sube(te)",
         on: "ゼン / zen",
-        example: "??"
+        example: "全てがうまくいった。 (すべてがうまくいった) - Todo salió bien."
     },
     {
         kanji: "表",
-        meaning: "superficie, tabla, grafico, diagrama",
+        meaning: "superficie, tabla, gráfico, diagrama",
         correct: "Superficie",
         options: ["Interior", "Superficie", "Fondo", "Base"],
         kun: "おもて、 あらわ(す) / omote, arawa(su)",
         on: "ヒョウ / hyou",
-        example: "??"
+        example: "表に名前を書いてください。 (おもてになまえをかいてください) - Escriba su nombre en la parte frontal."
     },
     {
         kanji: "戦",
@@ -177,7 +177,7 @@ export const kanjiDataN3 = [
         options: ["Paz", "Guerra", "Amor", "Amistad"],
         kun: "いくさ、 たたか(う) / ikusa, tataka(u)",
         on: "セン / sen",
-        example: "??"
+        example: "日本は戦争に参加した。 (にほんはせんそうにさんかした) - Japón participó en la guerra."
     },
     {
         kanji: "経",
