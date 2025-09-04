@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kanji-trainer/static/css/main.c4651efe.css",
-    "main.js": "/kanji-trainer/static/js/main.2cdf8615.js",
+    "main.js": "/kanji-trainer/static/js/main.a4d86989.js",
     "static/js/453.2fcbcf28.chunk.js": "/kanji-trainer/static/js/453.2fcbcf28.chunk.js",
     "index.html": "/kanji-trainer/index.html",
     "main.c4651efe.css.map": "/kanji-trainer/static/css/main.c4651efe.css.map",
-    "main.2cdf8615.js.map": "/kanji-trainer/static/js/main.2cdf8615.js.map",
+    "main.a4d86989.js.map": "/kanji-trainer/static/js/main.a4d86989.js.map",
     "453.2fcbcf28.chunk.js.map": "/kanji-trainer/static/js/453.2fcbcf28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4651efe.css",
-    "static/js/main.2cdf8615.js"
+    "static/js/main.a4d86989.js"
   ]
 }
